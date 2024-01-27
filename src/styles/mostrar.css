@@ -1,0 +1,51 @@
+.fondo {
+    width: 100%;
+    height: 500px;
+
+}
+
+.Mostrando {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent 0%, rgba(0, 0, 0, 0.1)),
+        linear-gradient(to top, rgba(0, 0, 0, 1), transparent 10%, rgba(0, 0, 0, 0.3)), url("../assets/fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    
+    padding-top: 20px;
+}
+
+.btn-modify {
+    width: 120px;
+    height: 50px;
+    margin: 15px 0;
+
+}
+
+.table_edit {
+
+    text-align: center;
+    color: #157347;
+}
+
+
+
+.btn-mostrar {
+    margin: 2px 0px;
+    margin-left: 10px;
+}
+
+.table-container {
+    max-height: 500px;
+    overflow-y: auto;
+    
+}
+
